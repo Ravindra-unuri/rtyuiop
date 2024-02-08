@@ -13,4 +13,7 @@ class Controller extends BaseController
     public function test(){
         echo "Testing for github(version controll purpose)";
     }
+    public function checking(){
+        echo "Watching out only";
+    }
 }
