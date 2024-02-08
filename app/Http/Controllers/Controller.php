@@ -11,6 +11,6 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
     public function test(){
-        echo "Testing for github";
+        echo "Testing for github(version controll purpose)";
     }
 }
